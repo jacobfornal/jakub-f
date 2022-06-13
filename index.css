@@ -1,0 +1,185 @@
+html, body {
+    margin: 0px;
+}
+
+
+
+#nav-top {
+    background-color: rgb(27, 84, 255);
+    width: 100%;
+    height: 3vh;
+    text-align: center;
+    
+    position: fixed;
+    top: -50px;
+    transition: top 0.6s;
+    padding-top: 1vh;
+   
+    
+}
+
+
+
+
+#id { 
+    margin-right: 5%;
+    text-decoration: none;
+   border-color:rgb(255, 195, 83);
+    border-width: 6px;
+    border-style: solid;
+    background-color:rgb(178, 174, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom:px;
+    color: rgb(108, 2, 135);
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 1000px
+
+    
+}
+
+#nav {
+    background-color: #0099DD;
+    width: 100%;
+    height:5vh;
+    text-align:center;
+  
+   padding-top: 2.4vh;
+
+}
+
+
+#navi {
+    margin-right: 6%;
+    text-decoration: none;
+    font-size: 1vw;  
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: bold;
+    color: #FFED6A
+}
+
+
+#start {
+    background-color: rgb(169, 169, 255);
+    width: auto;
+    height: 91vh;
+    display: block;
+    background-image: url(photo/boat_index.1.jpg);
+    background-size: 155vh;
+    background-repeat: repeat-x;
+    background-position-x: center;
+    background-position-y: top;
+    margin-top: -21px;
+    text-align: center;
+    
+    
+
+   
+}
+   
+#h1-start {
+font-family:'Courier New', Courier, monospace;
+position: block;
+margin-top: 100px;
+
+
+
+ 
+}
+
+    
+h1 {font-family: 'Anton';
+   
+  
+    color:rgb(65, 65, 255);
+ 
+    
+    
+   
+    
+}
+
+#menu {
+    background-color:#FF9933;
+    height:93vh;
+    display: block;
+    width: 14%;
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-decoration: none;
+    
+
+}
+
+.a-menu {
+    font-size: 1.4vw;
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#h1-menu {
+    font-size: 1.9vw;
+    color: rgb(83, 83, 247);
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+#main {
+    background-color: #FF9933;
+    width: auto;
+    height:96vh;
+    display: block;
+   
+    
+}
+
+#footer {
+    background-color:#026E81 ;
+   height: 20vh;
+}
+
+.ramka {
+    width: 81%;
+    height: 96vh;
+    float: right;
+    border:0px;
+  
+}
+
+#medi {
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: bold;
+}
+
+.img-start {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:
+}
+.alu {
+    font-size: 1.9vw;
+    color: rgb(83, 83, 247);
+  text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+@media screen and (max-width:900px) {
+    #main {float:clear ;
+
+    }
+
+    #nav { display: none}
+    .img-start {
+        
+    }
+
+    #menu {float: right}
+}

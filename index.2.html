@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<html lang="pl">
+<head>
+    <title>Nowy York</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css_index_2.css">
+    <link
+  rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+
+</head>
+<br>
+<br>
+<body>
+    <div class="home_icon"><a href="index.1.html" href="#gallery"><img src="photo/home.png"  alt="" height="80px"></a></div>
+    <h3>galeria zdięć</h3>
+        
+<div class="container">
+    
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="photo/a2.png" alt=""></div>
+          <div class="swiper-slide"><img src="photo/a3.png" alt=""></div>
+          <div class="swiper-slide"><img src="photo/a4.png" alt=""></div>
+          <div class="swiper-slide"><img src="photo/a5.png" alt=""></div>
+          <div class="swiper-slide"><img src="photo/a6.png" alt=""></div>
+          <div class="swiper-slide"><img src="photo/a7.png" alt=""></div>
+
+           
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+     
+</div>
+</main>
+
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<script>
+const swiper = new Swiper('.swiper', {
+autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+},
+  
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  
+});
+
+
+
+</script>
+
+</body>
+
+</html>

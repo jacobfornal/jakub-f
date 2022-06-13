@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularz</title>
+
+<link rel="stylesheet" href="css_index_1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Rubik&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+</head>
+<body>
+
+<secion id="id">
+    <center>
+        <form>
+    <section class="form" id="id_form">
+        <form action="mailto:jk.fornal@gmail.com" method="post"> 
+    <h3>formsy</h3>
+    
+    <label for="name">Imię:</label> 
+    <input type="text" name="name" id="name" maxlength="5" method="post"><br><br>
+    
+    <label for="age">ile masz lat?:</label>
+    <input type="number" name="age" id="age" min="10" max="100">
+    
+    
+    
+    <h4> Czy byłeś kiedyś w NYC?</h4>
+    <input type="radio" id="yes" name="plec" value="yes">
+    <label for=" yes">yes</label>
+    <br>
+    
+    <input type="radio" id="no" name="plec" value="no">
+    <label for="no">no</label>
+    
+    <h4>Co ciebie zachęca do odwiedzenia NYC?</h4>
+    
+    <input type="checkbox" id="atraction" name="zacheta" value="atrakcje">
+    <label for="atrakcje">atrakcje</label> <br>
+    
+    <input type="checkbox" id="jedzenie" id="food" name="zacheta" value="food">
+    <label for="food">jedzenie</label> <br>
+    
+    <input type="checkbox" id="infrastructure" name="zacheta" value="infrastructure">
+    <label for="infrastructure">infrastruktura</label>
+    
+    
+    <h4>Do jakiej dzielnicy chciałbyś pojechać?</h4>
+    
+    <select size = 4 name=dzielnica id=dzielnica multiple>
+        <option value=Brooklyn >
+            Brooklyn
+        </option>
+        <option value=Manhattanie>
+            Manhattanie
+        </option>
+        <option value=Queens>
+            Queens
+        </option>
+        <option value=Staten Island>
+            Staten Island
+        </option>
+        <option value=Kings County>
+            Kings County
+        </option>
+    
+    </select>
+    
+    <br> <br>
+    <input type="reset" value="wyczyść">
+    
+    <input type="submit" value="Wyślij"> 
+    </form>
+    <br>
+    <br>
+    
+    </center>
+    </section>
+</body>
+</html>
